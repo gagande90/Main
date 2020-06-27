@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Off Canvas Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../../dist/css/offcanvas.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+
+    <script src="../../assets/js/skulpt/skulpt.min.js" type="text/javascript"></script>
+    <!--Scripts for implementing the Live Embedded Code Editor using "Skulpt" js packages -->
+
+    <script src="../../assets/js/skulpt/skulpt-stdlib.js" type="text/javascript"></script> <!--Scripts for implementing the Live Embedded Code Editor using "Skulpt" js packages -->
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <nav class="navbar navbar-fixed-top navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="../../index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div><!-- /.nav-collapse -->
+      </div><!-- /.container -->
+    </nav><!-- /.navbar -->
+
+    <div class="container">
+
+      <div class="row row-offcanvas row-offcanvas-right">
+        <div class="col-xs-12 col-sm-9">
+          <p class="pull-right visible-xs">
+            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
+          </p>
+          <div class="jumbotron">
+            <h1>Welcome to PyLib</h1>
+            <p>This is the place where you can find the latest information about Python modules/libraries/packages. <strong>Let's start learning and read first atricle</strong></p>
+          </div>
+          <div class="row" style = "font-size: 30px; ">   <!--Put the content of atricle here-->
+
+          <p>Python is an <strong>interpreted, object-oriented, high-level programming language with dynamic semantics</strong>. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for <strong>Rapid Application Development,</strong> as well as for use as a scripting or glue language to connect existing components together. In the higher level view of the langauge variables are stored into the memory blocks. As the python is at higher level of abstraction then <strong>syntax</strong> which is required for variable declaration is quite simple and robust. But ultimately every declaration got converted into low level C or C++ code which involves using pointers and memory addresses for storing and then keeping track of variables.
+          <br>
+          <pre style = "width : 1000px; height: 250px;">
+            <div style = "font-weight: bold;">Declearing a variable. One of the best thing about being writing programs in python is that you did not need to worry about<br>the type declaration of the variables. It means that you did not need to worry much about whether a variable is integer or<br>a string.<br>#Declearing a variable<br>a = 10<br>b = 19<br>c = 10.02<br>d = -100<br>s = "Programming" #String Decleration<br>Plus point of being writing the code in Python is that "Do not need to worry about the variable type much either it's<br>integer/float/bool/string"</div>
+          </pre>
+
+          <br>
+          <div>Showing Variables in Python</div>
+          <video width = "1000px" height = "500px" style = "border: 5px dotted black; " controls>
+            <source src = "../../assets/video/1.mov" type = "video/mp4">
+          </video>
+          <br>
+          <br>
+          <br>
+          <br>
+          <div>Live Coding</div>
+
+
+          <iframe height="800px" width="100%" style = " border: 5px dotted black; " src="https://repl.it/@GagandeepSing15/StickyAstonishingSequence?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+
+          </p>
+
+          </div><!--/row-->
+        </div><!--/.col-xs-12.col-sm-9-->
+
+      </div><!--/row-->
+
+      <hr>
+
+      <footer>
+        <p>&copy; 2016 Company, Inc.</p>
+      </footer>
+
+    </div><!--/.container-->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="../../dist/js/offcanvas.js"></script>
+  </body>
+</html>
